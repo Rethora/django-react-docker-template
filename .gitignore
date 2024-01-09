@@ -1,0 +1,15 @@
+# env
+node_modules
+.venv
+.env
+
+# build
+assets/webpack_bundles
+webpack-stats.json
+
+# data
+db.sqlite3
+logs
+
+# cache
+**__pycache__**
