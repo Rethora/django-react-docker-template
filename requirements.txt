@@ -2,9 +2,12 @@ asgiref==3.7.2
 astroid==3.0.2
 dill==0.3.7
 Django==5.0.1
+django-filter==23.5
+djangorestframework==3.14.0
 django-webpack-loader==3.0.0
 gunicorn==21.2.0
 isort==5.13.2
+markdown==3.5.1
 mccabe==0.7.0
 packaging==23.2
 platformdirs==4.1.0
