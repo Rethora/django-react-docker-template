@@ -1,3 +1,14 @@
-Django
-django-webpack-loader
-gunicorn
+asgiref==3.7.2
+astroid==3.0.2
+dill==0.3.7
+Django==5.0.1
+django-webpack-loader==3.0.0
+gunicorn==21.2.0
+isort==5.13.2
+mccabe==0.7.0
+packaging==23.2
+platformdirs==4.1.0
+pylint==3.0.3
+python-dotenv==1.0.0
+sqlparse==0.4.4
+tomlkit==0.12.3

@@ -27,7 +27,9 @@
 				"vivaxy.vscode-conventional-commits",
 				"oderwat.indent-rainbow",
 				"shardulm94.trailing-spaces",
-				"naumovs.color-highlight"
+				"naumovs.color-highlight",
+				"wix.vscode-import-cost",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	},
@@ -38,9 +40,13 @@
 		8000
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bash .devcontainer/post-create.sh"
+	"postCreateCommand": "bash .devcontainer/post-create.sh",
 	// Configure tool-specific properties.
 	// "customizations": {},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
+	"runArgs": [
+		"--env-file",
+		".env"
+	]
 }
