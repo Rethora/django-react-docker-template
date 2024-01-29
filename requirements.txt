@@ -9,6 +9,6 @@ mccabe==0.7.0
 packaging==23.2
 platformdirs==4.1.0
 pylint==3.0.3
-python-dotenv==1.0.0
+python-dotenv==1.0.1
 sqlparse==0.4.4
 tomlkit==0.12.3
